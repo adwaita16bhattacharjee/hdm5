@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font family: Century Gothic;
+}
+
+header{
+    background-image: url(https://miro.medium.com/max/14000/1*sjfNdVTG42rAq4gAKPWH6w.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+     float: right;
+     list-style-type: none;
+     margin-top: 75px;
+     margin-right: 50px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: 1px solid #fff transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+logo img{
+    padding: 50px;
+    float: left;
+    height: 50px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 12%;
+    left: 16%;
+    transform: traanslate(-50%,-50%);
+}
+.title h1{
+    color: #000;
+    font-size: 32px;
+    font-family: cursive;
+}
+.title1{
+    position: absolute;
+    font-size: 4px;
+    bottom: -520px;
+    right: -890px;
+    transform: traanslate(-50%,-50%);
+}
+.title h2{
+    color: #fff;
+    font-size: 12px;
+    font-family: cursive;
+}
+.title p1{
+    color: #000;
+    padding: 40px;
+    font-family: cursive;
+}
+
+.button{
+    position: absolute;
+    top: 150%;
+    left: 42%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #ffff transparent;
+    font-family: cursive;
+    padding: 5px 5px;
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000; 
+}
